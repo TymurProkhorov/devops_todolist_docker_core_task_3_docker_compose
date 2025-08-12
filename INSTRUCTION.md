@@ -10,8 +10,16 @@
    cd <project_dir>
 
 2. Build and start services: \
-docker compose up --build \
+docker compose up --build
 
 Access the application:
 The application will be available in your browser at:
 http://localhost:8081
+
+
+To stop containers: \
+docker compose down \
+This command stops and removes the containers.
+
+To remove containers and volumes completely (to reset data): \
+docker compose down -v
